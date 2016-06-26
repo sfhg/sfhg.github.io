@@ -1,21 +1,20 @@
-      <div class="masthead">
-        <h3 class="text-muted">Kasabero Home Brew</h3>
-        <ul class="nav nav-justified">
-          <li {% if page.title == 'Home' %} class="active"{% endif %}>
-	       <a href="{{ site.url }}/">Home</a>
-	  </li>
-<!--
-          <li {% if page.title == 'Brewlog' %} class="active"{% endif %}>
-	       <a href="{{ site.url }}/brewlog.html">Brewlog</a>
-	  </li>
--->
-          <li {% if page.title == 'Now serving' %} class="active"{% endif %}>
-	       <a href="{{ site.url }}/nowserving.html">Now serving!</a>
-<!--
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <h3 class="text-muted">California State Homebrew Competition</h3>
+  <ul class="nav nav-justified">
+    <li {% if page.title == 'Home' %} class="active"{% endif %}>
+      <a href="{{ site.url }}/">Home</a>
+    </li>
+    <li {% if page.title == '2016 Competition' %} class="active"{% endif %}>
+      <a href="http://castate.brewcompetition.com">2016 Competition</a>
+    </li>
+    <li {% if page.title == 'Previous Winners' %} class="active"{% endif %}>
+      <a href="/previous.html">Previous Winners</a>
+    </li>
+      <!--
 	  </li>
           <li {% if page.title == 'About' %} class="active"{% endif %}>
-	       <a href="{{ site.url }}/about.html">About</a>
+	    <a href="{{ site.url }}/about.html">About</a>
 	  </li>
--->
-       </ul>
-      </div>
+	  -->
+  </ul>
+</div>
