@@ -1,0 +1,280 @@
+---
+layout: default
+title: Best of Kasabero Brews
+---
+
+<script>
+function findBrew() {
+	 var cap = document.getElementById("brewSearch").value; 
+    var elt = document.getElementById(cap);
+    elt.style.display = '';
+}
+</script>
+
+<input type="search" id="brewSearch" placeholder="Cap Label">
+<button onclick="findBrew()">Find it!</button>
+
+<p id="beer">
+</p>
+
+<div id="sm" style="display:none">
+[<a id="sm">SM</a>] <b>Sea Monster</b> 
+<br/>
+<i>Brett IPA, approximately % ABV</i>
+<br/>
+<i>Kasabero Batch </i>
+<br/><br/>
+<p>
+
+</p>
+<hr/>
+</div>
+
+<div id="fl" style="display:none">
+[<a id="fl">FL</a>] <b>Fruitti</b> 
+<br/>
+<i>IPA, approximately % ABV</i>
+<br/>
+<i>Kasabero Batch </i>
+<br/><br/>
+<p>
+
+</p>
+<hr/>
+</div>
+
+<div id="uts" style="display:none">
+[<a id="uts">UTS</a>] <b>Under the Sea</b> 
+<br/>
+<i>Barrel Aged Imperial IPA, approximately 10% ABV</i>
+<br/>
+<i>Kasabero Batch 49</i>
+<br/><br/>
+<p>
+
+</p>
+
+<hr/>
+</div>
+
+<div id="ww" style="display:none">
+[<a id="ww">WW</a>] <b>Stephanie's Fav</b> 
+<br/>
+<i>Winter Warmer, 6.5% ABV</i>
+<br/>
+<i>Kasabero Batch 52</i>
+<br/><br/>
+<p>
+Kasabero's attempt at the Winter Warmer recipe from Gordon Strong's <a href="http://www.brewerspublications.com/books/modern-homebrew-recipes/"></a>Modern Homebrew Recipes</a>, Stephanie's Fav is beautifully clear with a deep ruby color. The rich and malty flavor is offset with a subtle kick of alcohol at the end. A dangerously drinkable brew.
+</p>
+<hr/>
+</div>
+
+<div id="gb" style="display:none">
+[<a id="gb">GB</a>] <b>Gloom Buster</b> 
+<br/>
+<i>Barrel Fermented Saison, 6.2% ABV</i>
+<br/>
+<i>Kasabero Batch 51</i>
+<br/><br/>
+<p>
+One of Kasabero's flagship brews, the latest batch of our Gloom Buster Honey Saison completed primary fermetation in a <a href="http://www.sevenstillsofsf.com/whiskey/">Seven Stills Whipnose</a> whiskey barrel. Though it did not pick up much of the barrel character, this is a crisp, refreshing, and highly drinkable beverage.
+</p>
+<hr/>
+</div>
+
+<div id="asj" style="display:none">
+[<a id="asj">ASJ</a>] <b>Afternoon Shot O' Joe</b> 
+<br/>
+<i>Coffee Porter, 6.2% ABV (estimated)</i>
+<br/>
+<i>Kasabero Batch 50</i>
+<br/><br/>
+<p>
+
+</p>
+<hr/>
+</div>
+
+<div id="s1" style="display:none">
+[<a id="s1">S1</a>] <b>Sauron</b> 
+<br/>
+<i>Flemish Red-style Sour, ABV unknown</i>
+<br/>
+<i>Kasabero Batch 40 &amp; 34</i>
+<br/><br/>
+<p>
+
+</p>
+<hr/>
+</div>
+
+<div id="cs1" style="display:none">
+[<a id="cs1">CS1</a>] <b>Cherry Sauron</b> 
+<br/>
+<i>Flemish Red-style Sour on Cherry, ABV unknown</i>
+<br/>
+<i>Kasabero Batch 40 &amp; 34</i>
+<br/><br/>
+<p>
+
+</p>
+<hr/>
+</div>
+
+<div id="tsj15" style="display:none">
+[<a id="tsj15">TSJ15</a>] <b>Triple Shot O' Joe 2015</b> 
+<br/>
+<i>Oak Aged Imperial Porter with Coffee, 13.6% ABV</i>
+<br/>
+<i>Kasabero Batch 39</i>
+<br/><br/>
+<p>
+  
+</p>
+<hr/>
+</div>
+
+<div id="tsj14" style="display:none">
+[<a id="tsj14">TSJ14</a>] <b>Triple Shot O' Joe 2014</b> 
+<br/>
+<i>Oak Aged Imperial Porter with Coffee, 12% ABV</i>
+<br/>
+<i>Kasabero Batch 22</i>
+<br/><br/>
+<p>
+An amped-up version of our Afternoon Shot O' Joe robust porter, Triple Shot  spent several weeks on bourbon-soaked American oak cubes after primary fermentation and got a dose of Stumptown cold-brewed coffee spiked with Maker's Mark at bottling. Our first attempt at oak aging, TSJ picked up a significant amount of wood flavor, though not quite as much vanilla character as we had hoped. TSJ is now an annual, late-May brew. Our only regret with TSJ14 was the use of a defective batch of carbonation capsules. Never fear, though unpleasant to fish out of a glass, the capsule casings are perfectly safe.
+</p>
+<hr/>
+</div>
+
+<div id="unm" style="display:none">
+[<a id="unm">Unmarked Black Cap</a>] <b>Not So Red</b> 
+<br/>
+<i>Brownish Irish Red, 4.7% ABV</i>
+<br/>
+<i>Kasabero Batch 30</i>
+<br/><br/>
+<p>
+Is it an Irish Red? Is it a Dry Stout? Is it a brown ale? You decide. The Not So Red was originally designed as a Smithwick's Clone, though a heavy-handed application of roasted barley resulted in a dry, roasty beer. Though not what we intended, it is quite drinkable even if it could benefit from a bit more maltiness to balance out the roast.
+</p>
+<hr/>
+</div>
+
+<div id="yfs" style="display:none">
+[<a id="yfs">YFS</a>] <b>Young Franken Stein</b> 
+<br/>
+<i>Barrel Aged American-style Barleywine, 12.5% ABV</i>
+<br/>
+<i>Kasabero Batch 29</i>
+<br/><br/>
+<p>
+<i>Frankie</i> is Kasabero's version of an American-style Barleywine
+modeled after AleSmith's Old Numbskull. Clocking in at 12.5% ABV, the
+2015 version of this beer got two doses of yeast to guarantee full
+attenuation. The beer was then aged in a barrel that originally housed
+Fluxuate Whiskey by Seven Stills of SF. The barrel imparted
+significant boozy character and a nice depth that was rounded out with
+another healthy dose of hops added after barrel aging. He's tasty now,
+but we look forward to trying him again in a few months.
+</p>
+<hr/>
+</div>
+
+<div id="kal" style="display:none">
+[<a id="kal">KAL</a>] <b>Kal's Booty</b> 
+<br/>
+<i>Barrel Aged Belgian Quad, approximately 9% ABV</i>
+<br/>
+<i>Kasabero Batches 31 and 32</i>
+<br/><br/>
+<p>
+Inspired by some of our favorite Lost Abbey brews, Kal was designed as
+the first resident of our 10-gallon Chocasmoke Whiskey barrel from
+Seven Stills of SF. We combined two five-gallon batches of an Avery The Reverend clone and allowed the flavors to meld for five weeks in the barrel. The resulting beer has a prominent whiskey flavor that balances nicely with the fruity esters and malt profile of the Belgian style. 
+</p>
+<hr/>
+</div>
+
+<div id="skal" style="display:none">
+[<a id="skal">SKAL</a>] <b>Kal's Booty - Strawberry</b> 
+<br/>
+<i>Barrel Aged Belgian Quad with Strawberry, approximately 9% ABV</i>
+<br/>
+<i>Kasabero Batches 31 and 32</i>
+<br/><br/>
+<p>
+After barrel aging our basic <a href="#kal">Kal</a>, three gallons
+were extracted and aged on four pounds of frozen
+strawberries. Refreshing and very drinkable, you'd never know this was
+a 9% beer.
+</p>
+
+<hr/>
+</div>
+
+<div id="rkal" style="display:none">
+[<a id="rkal">RKAL</a>] <b>Kal's Booty - Raisin</b> 
+<br/>
+<i>Barrel Aged Belgian Quad with Raisins, approximately 9% ABV</i>
+<br/>
+<i>Kasabero Batches 31 and 32</i>
+<br/><br/>
+<p>
+When we conceived of Kal, we imagined a sticky sweet and sippable
+brew. A stark contrast to <a href="#skal">Strawberry Kal</a>, Raisin
+Kal has a deeper character gained from aging his final two weeks on
+raisins instead of strawberries. Save for enjoyment on a cool winter
+night.
+</p>
+<hr/>
+</div>
+
+<div id="sh" style="display:none">
+[<a id="sh">SH</a>] <b>SHSMaSH</b> 
+<br/>
+<i>Single Malt Single Hop, 4.7% ABV</i>
+<br/>
+<i>Kasabero Batch 35</i>
+<br/><br/>
+<p>
+SHSMaSH is our Southern Hemisphere Single Malt Single Hop beer. This
+extra hoppy, extra pale ale uses only Patagonia Extra Pale Malt from Chile
+and Motueka hops from New Zealand. Fermented with Giga Yeast Vermont
+IPA yeast, this brew got four doses of hops, first wort, five minute,
+flame out, and dry hop. A crisp and flavorful beer.
+</p>
+<hr/>
+</div>
+
+<div id="fya" style="display:none">
+[<a id="fya">FYA</a>] <b>First Year American</b>
+<br/>
+<i>White House Honey Ale, 5.3% ABV</i>
+<br/>
+<i>Kasabero Batch 36</i>
+<br/><br/>
+<p>
+FYA is Kasabero's version of the White House Honey Ale recipe. Brewed
+with Macadamia Nut Blossom honey straight from Maui, this is a nice
+summer brew. We enjoy it paired with Indian food.
+</p>
+<hr/>
+</div>
+
+<div id="lrr2" style="display:none">
+[<a id="lrr2">LRR2</a>] <b>Lil' Red Rye 2</b> 
+<br/>
+<i>Irish Red with Rye, 5% ABV</i>
+<br/>
+<i>Kasabero Batch 37</i>
+<br/><br/>
+<p>
+An Irish Red with a hint of spicy rye, this is our second batch of the brew that took second place in the specialty beer category in the Sacramento regional AHA competition. Though not as clear as batch one, Lil' Red batch two has a nice maltiness and we think it will continue to improve in the bottle.
+</p>
+<hr/>
+</div>
+
+
+
+

@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="kasabero home brewing">
+    <meta name="author" content="Sami Rollins">
+
+    <title>{{ site.name }}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.url }}/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ site.url }}/css/justified-nav.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      
+      {% include navbar.html %}
+
+      {{ content }}
+
+      {% include footer.html %}
+
+    </div> <!-- /container -->
+
+
+   
+    <script src="{{ site.url }}/js/jquery.min.js"></script>
+    <script src="{{ site.url }}/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
