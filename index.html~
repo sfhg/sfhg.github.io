@@ -6,9 +6,63 @@ title: Home
 <!--<h1 class="page-header">Welcome</h1>-->
 <br/>
 
-<p class="lead">Kasabero has been proudly home brewing in the Parkside District of
-San Francisco since 2012! Here is a sample <a href="pdfs/2015Winners.pdf">pdf link.</a></p>
+<div class="container">
+  <h1 class="page-header">37th Annual California State Homebrew Competition</h1>
 
+  <p class="lead">
+    
+    The <a href="http://www.sfhomebrewersguild.com/">San Francisco Homebrewers Guild</a> is proud to announce the 2016 CA State Homebrew Competition&mdash;the third and final leg of the CA Homebrewer of the Year Series. <!--This year’s Best of Show winner will have the opportunity to brew their winning recipe with ? --></p>
+  
+  <p>
+  
+    <table class="table table-hover table-condensed">
+      <!--
+            <thead>
+            <tr>
+                <th>Semester</th>
+                <th>Section</th>
+                <th>Course Title</th>
+            </tr>
+            </thead> -->
+            <tbody>            
+              <tr>
+                <td nowrap><strong>Entry Registration Window</strong></td>
+                <td nowrap>8/1/16&ndash;9/22/16</td>
+              </tr>
+
+              <tr>
+                <td nowrap><strong>Entry Registration Window</strong></td>
+                <td nowrap>8/1/16&ndash;9/22/16</td>
+              </tr>
+
+              <tr>
+                <td nowrap><strong>Entry Registration Window</strong></td>
+                <td nowrap>8/1/16&ndash;9/22/16</td>
+              </tr>
+
+              <tr>
+                <td nowrap><strong>Entry Registration Window</strong></td>
+                <td nowrap>8/1/16&ndash;9/22/16</td>
+              </tr>
+
+              <tr>
+                <td nowrap><strong>Entry Registration Window</strong></td>
+                <td nowrap>8/1/16&ndash;9/22/16</td>
+              </tr>
+	    </tbody>
+    </table>
+  Entry Submission Window: 9/23/16 - 10/1/16
+  Entry Submission Locations: Ferment Drink Repeat (SF) and others TBD in near future
+  Entry Fee: $10
+  Style Guidelines: 2015 BJCP Style Guidelines (We will be using "3. Styles Sorted Using Style Family" as defined in Appendix A of BJCP Style Guideline to establish our categories for competition)
+  We will be holding two prelim sessions and 1 finals session this year
+  Prelim 1: Saturday 10/15/16 @ Bare Bottle Brewing (exact times TBD)
+  Prelim 2: Saturday 10/22/16 @ Ferment Drink Repeat (exact times TBD)
+  Finals:  Saturday 11/5/16 @ Anchor Brewery (exact times TBD)
+  
+</div>
+
+<!--
 <div class="table-responsive">
   <table class="table">
     <tr>
@@ -21,25 +75,4 @@ San Francisco since 2012! Here is a sample <a href="pdfs/2015Winners.pdf">pdf li
     </tr>
   </table>
  </div>
-
-<!-- Jumbotron -->
-<!--
-      <div class="jumbotron">
-        <h1>Marketing stuff!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
-      </div>
-      <div class="row">
-        <div class="col-lg-4">
-          <h2>Safari bug warning!</h2>
-          <p class="text-danger">As of v7.0.1, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
 -->
